@@ -1,0 +1,7 @@
+Compile C with gcc program.c, which produces an executable a.out that can be run with ./a.out
+Can specify output file name using -o, such as gcc -o program program.c
+
+We can use the -g flag to store debugging information in the executable program that we can extract with gdb. 
+For example, 
+gcc -g -o hello hello.c
+cgdb hello
